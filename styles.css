@@ -1,1 +1,26 @@
-
+*{
+	
+	 box-sizing: border-box;
+}
+body{
+	background-color:whitesmoke;
+}
+.container{
+	display:flex;
+	height:300px;
+	width:620px;
+	background-color:white;
+	border: 10px 10px 20px 2px hotpink;
+	margin-top:20px;
+	margin-right:10px;
+	margin-left:10px;
+	
+}
+.left-side{
+	flex:50%;
+	background-color:white;
+}
+.right-side{
+	flex:50%;
+	background-color:white;
+}
